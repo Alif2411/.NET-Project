@@ -1,0 +1,15 @@
+@ASP.NetProject_HostAddress = https://localhost:44319
+
+GET {{ASP.NetProject_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+POST {{ASP.NetProject_HostAddress}}/api/auth/register
+Content-Type: application/json
+
+{
+  //UserDTO
+}
+
+###
